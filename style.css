@@ -1,0 +1,96 @@
+*, html {
+  margin: 0;
+  padding: 0;
+}
+
+
+.container-navbar{
+  background-color: rgb(61, 60, 60);
+  height: 100vh;
+}
+
+.frist-name {
+  color: black;
+  font-size: 25px;
+}
+
+.last-name {
+  color: crimson;
+  font-size: 20px;
+  margin-right: 80vh;
+}
+
+.ul-navbar {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.li-navbar {
+  justify-content: space-between;
+  font-size: 16px;
+  list-style-type: none;
+  padding: 10px;
+  margin: 20px;
+  color: white;
+}
+
+.a-back {
+  font-size: 25px;
+  margin: 10px;
+  text-decoration: none;
+  color: #999;
+}
+
+.a-navbar {
+ text-decoration: none; 
+ color: white;
+}
+
+.a-navbar:hover {
+  color: crimson;
+  transition: .1s ease-in-out;
+  transition-delay: .2s;
+}
+
+.a-back:hover {
+  height: 30px;
+  color: crimson;
+  text-decoration: none;
+  transition: .2s ease-in-out;
+  transition-delay: .3s;
+}
+
+.content {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-content {
+  height: 30%;
+  width: 30%;
+  border-radius: 10px;
+}
+
+
+
+.sosmed- {
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.poto {
+  height: 30%;
+  width: 30%;
+}
+
+.poto- {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
